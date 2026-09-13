@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Личная Страничка</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class = "img"><img src="./gnu-linux-svgrepo-com.svg" alt="Image"></div>
+            <div class ="fio">
+                <p class="header__name">Линуксойд Торвалдсвич</p>
+                <p class="header_role">Fullstack developer</p>
+            </div>
+            <div class="contacts">
+                <p class="contacts_title">Контакты</p>
+                <p><a class="contacts_text" href="tel:+79324206090">+79324206090</a></p>
+                <p><a class="contacts_text" href="mailto:email@yandex.ru">bogdanyd86@gmail.com</a></p>
+            </div>
+        </div>
+        <hr class = "divider">
+        <div class="about">
+            <p><strong>Обо мне:</strong> мое настоящее имя Богдан, но друзья и коллеги зовут меня Борей, если вы хотите узнать больше о том, на чем я пишу советую изучить <strong>html/css/js</strong> для фронтенда и фреймвор языка <strong>Go/Golang</strong> под названием <a href="https://gin-gonic.com/" target="_blank">Gin</a></p>
+        </div>
+        <div class="info">
+            <div class="info_col">
+                <h2 class="info_title">Мои хобби</h2>
+                <ul class="info_list">
+                    <li>Чтение на английском</li>
+                    <li>Баскетбол</li>
+                    <li>Создание видео-контента</li>
+                    <li>Гейминг</li>
+                </ul>
+            </div>
+            <div class="info_col">
+                <h2 class="info_title">Социальные сети</h2>
+                <ol class="info_list">
+                    <li><a href="https://t.me/BorisBYD" target="_blank">Telegram</a></li>
+                    <li><a href="https://www.tiktok.com/@borisdev78" target="_blank">Tiktok</a></li>
+                    <li><a href="https://github.com/Borya78zzz" target="_blank">Github</a></li>
+                </ol>
+            </div>
+        </div>
+                <div class="tech-section">
+            <div class="section-title">Интересующие технологии</div>
+
+            <div class="tech">
+                <div class="tech_item">
+                    <img src="./js-logo.png" alt="JavaScript">
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech_item">
+                    <img src="./golang-logo.png" alt="Golang">
+                    <span>Golang</span>
+                </div>
+                <div class="tech_item">
+                    <img src="./c++-logo.png" alt="С++">
+                    <span>C++</span>
+                </div>
+                <div class="tech_item">
+                    <img src="./postgresql-logo.png" alt="PostgreSQL">
+                    <span>PostgreSQL</span>
+                </div>
+                <div class="tech_item">
+                    <img src="./docker-logo.png" alt="Docker">
+                    <span>Docker</span>
+                </div>
+            </div>
+        </div>
+                <div class="feedback-section">
+            <div class="section-title">Форма обратной связи</div>
+
+            <form class="feedback-form" action="#" method="post">
+                <div class="form_row">
+                    <input type="text" placeholder="Ваше имя" class="form_input" required>
+                    <input type="tel" placeholder="Телефон" class="form_input">
+                </div>
+
+                <div class="form_row">
+                    <textarea placeholder="Ваш вопрос" class="form_textarea" rows="4"></textarea>
+                </div>
+
+                <div class="form_actions">
+                    <button type="submit" class="submit_btn">Отправить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
