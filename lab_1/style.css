@@ -79,9 +79,7 @@ body{
 }
 
 .divider{
-    border: none;
     border-top: 1px solid #ddd;
-    margin: 20px 0
 }
 
 .about {
